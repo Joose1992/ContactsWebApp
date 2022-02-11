@@ -50,7 +50,7 @@ namespace Practice.DataAccess.Controllers
                                                SET FIRSTNAME =    @FIRSTNAME,
                                                    LASTNAME =     @LASTNAME,
                                                    PHONENUMBER =  @PHONENUMBER,
-                                                   EMAILADDRESS = @EMAILADDRESS
+                                                   EMAILADDRESS = @EMAILADDRESS,
                                                    ADDRESS =      @ADDRESS
                                              WHERE CONTACTID =    @CONTACTID";
             using (SqlConnection sqlConnection = new SqlConnection(sqlConnectionString))

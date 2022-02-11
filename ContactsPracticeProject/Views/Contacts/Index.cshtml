@@ -12,12 +12,13 @@
 
     function confirmDelete(id) {
         $("#hdnDeleteContactId").val(id);
-        openModal("deleteModal");
+        $("#deleteModal").modal("show");
+        
     }
 
     function cancelDelete() {
         $("#hdnDeleteContactId").val(0);
-        closeModal("deleteModal");        
+        $("#deleteModal").modal("hide");      
     }
 
     function deleteContact() {
