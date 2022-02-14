@@ -15,4 +15,31 @@ html {
 
 body {
   margin-bottom: 60px;
+  background-color: aquamarine;
+  background-image: cross-fade();
+}
+.titulo {
+    color: darkgoldenrod;
+    margin-top: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.display-4 {
+    color: brown;
+    font-size: 90px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.optionList {
+    margin-top: 45px;
+    font-size: 25px;
+    font-family: 'Cascadia Mono';
+}
+
+.inspiration {
+    margin-top: 135px;
+}
+
+.imperactive {
+    color: red
 }
