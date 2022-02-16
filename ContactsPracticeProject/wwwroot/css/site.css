@@ -31,7 +31,7 @@ body {
 }
 
 .optionList {
-    margin-top: 45px;
+    margin-top: 35px;
     font-size: 25px;
     font-family: 'Cascadia Mono';
 }
@@ -42,4 +42,41 @@ body {
 
 .imperactive {
     color: red
+}
+
+#info {
+    background-color: chartreuse;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    padding-bottom: 15px;
+}
+
+#results {
+    background-color: chartreuse;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+#intro {
+    background-color: chartreuse;
+    padding-bottom: 10%;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+#menu {
+    background-color: darkgreen;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-bottom: 2%;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
 }
