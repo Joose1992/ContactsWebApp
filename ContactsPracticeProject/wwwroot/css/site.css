@@ -15,18 +15,18 @@ html {
 
 body {
   margin-bottom: 60px;
-  background-color: aquamarine;
+  background-color: dimgray;
   background-image: cross-fade();
 }
 .titulo {
-    color: darkgoldenrod;
-    margin-top: 40px;
+    color: blue;
+    margin-top: 30px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .display-4 {
     color: brown;
-    font-size: 90px;
+    font-size: 70px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -45,7 +45,7 @@ body {
 }
 
 #info {
-    background-color: chartreuse;
+    background-color: gray;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
     border-bottom-left-radius: 25px;
@@ -54,7 +54,7 @@ body {
 }
 
 #results {
-    background-color: chartreuse;
+    background-color: grey;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
     border-bottom-left-radius: 25px;
@@ -62,7 +62,7 @@ body {
 }
 
 #intro {
-    background-color: chartreuse;
+    background-color: grey;
     padding-bottom: 10%;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
@@ -71,7 +71,7 @@ body {
 }
 
 #menu {
-    background-color: darkgreen;
+    background-color: lightslategrey;
     margin-left: 15%;
     margin-right: 15%;
     padding-bottom: 2%;

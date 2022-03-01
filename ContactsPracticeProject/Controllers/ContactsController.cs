@@ -26,9 +26,21 @@ namespace ContactsPracticeProject.Controllers
             return View(model);
         }
 
+        [HttpGet]
+        public  async Task<IActionResult> Details()
+        {
+           if (ModelState.IsValid)
+            {
+                return View();
+            }
+           return View();
+        }
+
         [HttpPost]
         public IActionResult Index(int contactId, string firstName, string lastName, string phoneNumber, string emailAddress, string address)
         {
+            Details();
+
             if (contactId > 0)
             {
                 ContactController.UpdateContact(contactId, firstName, lastName, phoneNumber, emailAddress, address, _configuration);
