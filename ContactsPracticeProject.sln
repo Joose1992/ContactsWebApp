@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 25.0.1700.0
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34616.47
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactsPracticeProject", "ContactsPracticeProject\ContactsPracticeProject.csproj", "{ABD40782-A780-4CC0-A519-EE3FEE5EC1EB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContactsPracticeProject", "ContactsPracticeProject\ContactsPracticeProject.csproj", "{ABD40782-A780-4CC0-A519-EE3FEE5EC1EB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice.DataAccess", "Practice.DataAccess\Practice.DataAccess.csproj", "{AD06356B-CAD9-4EFD-8D86-8937F7C1D732}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Practice.DataAccess", "Practice.DataAccess\Practice.DataAccess.csproj", "{AD06356B-CAD9-4EFD-8D86-8937F7C1D732}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data-access-EF", "Data-access-EF\Data-access-EF.csproj", "{AED4A88D-6F12-48DB-AA8B-2CD4E6F3BDB8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{AD06356B-CAD9-4EFD-8D86-8937F7C1D732}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AD06356B-CAD9-4EFD-8D86-8937F7C1D732}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AD06356B-CAD9-4EFD-8D86-8937F7C1D732}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AED4A88D-6F12-48DB-AA8B-2CD4E6F3BDB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AED4A88D-6F12-48DB-AA8B-2CD4E6F3BDB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AED4A88D-6F12-48DB-AA8B-2CD4E6F3BDB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AED4A88D-6F12-48DB-AA8B-2CD4E6F3BDB8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
